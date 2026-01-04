@@ -66,7 +66,14 @@ SIM-TIMETABLE-to-ICS/
 
 ---
 
-## ▶️ How to Use
+## ⚠️ Disclaimer
+
+This project is built specifically for SIM timetable data and is intended for personal and educational use.
+It is not an official SIM tool and is not affiliated with or endorsed by Singapore Institute of Management.
+
+---
+
+## ▶️ How to Use (Generating .ics file)
 1. **Clone the repository**:
     ```bash
     git clone https://github.com/cyuanjun/SIM-TIMETABLE-to-ICS.git
@@ -125,18 +132,17 @@ SIM-TIMETABLE-to-ICS/
     - Paste the contents into your notepad and save it as a .html file (Remember to change the file type to "All files"). You can put any name you want, for simplicity we're using "timetable_data.html".
 
 6. **Running the script**:
+    - Before running, open up **generate_ics.py** and change "FILE_NAME_HTML" to the name u used to store the HTML data in the previous step (Remember it has to end with .html).
+    - Also change "FILE_NAME_ICS" to your desired output file name (Remember it has to end with .ics).
+
     ```bash
     python generate_ics.py
     ```
 
+    - You should see the .ics file generated in your directory.
+
+7. **Importing .ics Files into Calendars**:
+    - For all 3 Calendars, I would recommend creating a calendar and importing the .ics file events into that calendar. That way, you would be able to change the colours of the events by group and control the notification settings (E.g. Google Calendar adds notifications by default, which can be disabled per calendar)
+    - For Google Calendar and Outlook it should be pretty straight forward, as for Apple Calendar, you might want to refer to this reddit page [here](https://www.reddit.com/r/ios/comments/1kwttla/figured_out_an_easy_way_to_import_ics_files_into/)
+
 ---
-
-## ⚠️ Disclaimer
-
-This project is built specifically for SIM timetable data and is intended for personal and educational use.
-It is not an official SIM tool and is not affiliated with or endorsed by Singapore Institute of Management.
-
----
-
-
-
