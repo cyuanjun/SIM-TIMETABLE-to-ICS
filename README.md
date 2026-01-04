@@ -142,7 +142,7 @@ It is not an official SIM tool and is not affiliated with or endorsed by Singapo
     python generate_ics.py
     ```
 
-    - You should see the `.ics` file generated in your directory.
+    - The `.ics` file should then be generated in your directory.
 
 7. **Importing .ics Files into Calendars**:
     - For all 3 Calendars, I would recommend creating a calendar and importing the .ics file events into that calendar. That way, you would be able to change the colours of the events by group and control the notification settings
