@@ -136,7 +136,8 @@ It is not an official SIM tool and is not affiliated with or endorsed by Singapo
 6. **Running the script**:
     - Before running, open up **generate_ics.py** and change `FILE_NAME_HTML` to the name u used to store the HTML data in the previous step (Remember it has to end with .html).
     - Also change `FILE_NAME_ICS` to your desired output file name (Remember it has to end with .ics).
-
+    - You can then run the file using:
+      
     ```bash
     python generate_ics.py
     ```
