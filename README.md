@@ -147,7 +147,7 @@ It is not an official SIM tool and is not affiliated with or endorsed by Singapo
     - For all 3 Calendars, I would recommend creating a calendar and importing the .ics file events into that calendar. That way, you would be able to change the colours of the events by group and control the notification settings
     - _(E.g. Google Calendar adds notifications by default, which can be disabled per calendar)._
     - _(Note: You can only create a new calendar in Google Calendar through the browser)_
-    - I have listed the general steps here, but do note that these could change.
+    - I have listed the general steps here, but do note that these could change:
         - **Google Calendar (browser)**: Settings → Import & export → Import
         - **Google Calendar (android)**: Open the `.ics` file.
         - **Outlook (browser)**: Add Calendar → Upload from file
