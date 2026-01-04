@@ -157,3 +157,6 @@ It is not an official SIM tool and is not affiliated with or endorsed by Singapo
     - For Apple Calendar, you might want to refer to this reddit page [here](https://www.reddit.com/r/ios/comments/1kwttla/figured_out_an_easy_way_to_import_ics_files_into/), as from what i heard it can be quite finicky.
 
 ---
+
+> 🔒 **Privacy Note:** All timetable data and screenshots in this repository are mock examples.  
+> They are included for demonstration purposes only and do not represent my real schedule.
