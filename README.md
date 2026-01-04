@@ -1,6 +1,8 @@
 # SIM-TIMETABLE-to-ICS 🎯
 SIM-TIMETABLE-to-ICS is a python based tool that extracts timetable data from the SIMConnect portal and converts them into a standards-compliant iCalendar (.ics) file for seamless imports into **Google Calendar, Apple Calendar, and Outlook.**
 
+This script is made for SIM-UOW students, but might work for SIM students of other universities as well if the formatting of the timetable is the same. From what I know the structure should more or less be the same, but if for some reason it does not work, do reach out to me via LinkedIn [here](https://www.linkedin.com/in/chia-yuan-jun/) and i will try my best to help.
+
 ---
 
 ## 📊 Project Overview
@@ -120,20 +122,20 @@ It is not an official SIM tool and is not affiliated with or endorsed by Singapo
 5. **Getting HTML table data**:
 
     ![Timetable Exraction 1](assets/timetable_extraction_1.png)
-    - Login to the SIMConnect page and navigate to the "My Apps" section on the top left.
-    - Click on the dropdown menu under Academics with "other academic...", select "Personalised Timetable", and click the arrow icon beside.
+    - Login to the SIMConnect page and navigate to the `My Apps` section on the top left.
+    - Click on the dropdown menu under Academics with `other academic...`, select `Personalised Timetable`, and click the arrow icon beside.
     - You should end up at the timetable page.
 
     ![Timetable Exraction 2](assets/timetable_extraction_2.png)
-    - Right click on the timetable table and click on "View frame source".
-    - A page should pop up. Copy everything on that page using "CTRL + A" and "CTRL + C".
+    - Right click on the timetable table and click on `View frame source`.
+    - A page should pop up. Copy everything on that page using `CTRL + A` and `CTRL + C`.
 
     ![Timetable Exraction 3](assets/timetable_extraction_3.png)
-    - Paste the contents into your notepad and save it as a .html file (Remember to change the file type to "All files"). You can put any name you want, for simplicity we're using "timetable_data.html".
+    - Paste the contents into your notepad and save it as a .html file (Remember to change the file type to `All files`). You can put any name you want, for simplicity we're using `timetable_data.html`.
 
 6. **Running the script**:
-    - Before running, open up **generate_ics.py** and change "FILE_NAME_HTML" to the name u used to store the HTML data in the previous step (Remember it has to end with .html).
-    - Also change "FILE_NAME_ICS" to your desired output file name (Remember it has to end with .ics).
+    - Before running, open up **generate_ics.py** and change `FILE_NAME_HTML` to the name u used to store the HTML data in the previous step (Remember it has to end with .html).
+    - Also change `FILE_NAME_ICS` to your desired output file name (Remember it has to end with .ics).
 
     ```bash
     python generate_ics.py
@@ -142,7 +144,15 @@ It is not an official SIM tool and is not affiliated with or endorsed by Singapo
     - You should see the .ics file generated in your directory.
 
 7. **Importing .ics Files into Calendars**:
-    - For all 3 Calendars, I would recommend creating a calendar and importing the .ics file events into that calendar. That way, you would be able to change the colours of the events by group and control the notification settings (E.g. Google Calendar adds notifications by default, which can be disabled per calendar).
-    - For Google Calendar and Outlook it should be pretty straight forward, as for Apple Calendar, you might want to refer to this reddit page [here](https://www.reddit.com/r/ios/comments/1kwttla/figured_out_an_easy_way_to_import_ics_files_into/).
+    - For all 3 Calendars, I would recommend creating a calendar and importing the .ics file events into that calendar. That way, you would be able to change the colours of the events by group and control the notification settings
+    - _(E.g. Google Calendar adds notifications by default, which can be disabled per calendar)._
+    - _(Note: You can only create a new calendar in Google Calendar through the browser)_
+    - I have listed the general steps here, but do note that these could change.
+        - **Google Calendar (browser)**: Settings → Import & export → Import
+        - **Google Calendar (android)**: Open the `.ics` file.
+        - **Outlook (browser)**: Add Calendar → Upload from file
+        - **Apple Calendar (macOS)**: File → Import
+        - **Apple Calendar (iOS)**: Open the `.ics` file via Files or AirDrop
+    - For Apple Calendar, you might want to refer to this reddit page [here](https://www.reddit.com/r/ios/comments/1kwttla/figured_out_an_easy_way_to_import_ics_files_into/), as from what i heard it can be quite finicky.
 
 ---
