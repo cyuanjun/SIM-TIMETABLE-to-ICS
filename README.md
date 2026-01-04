@@ -142,7 +142,7 @@ It is not an official SIM tool and is not affiliated with or endorsed by Singapo
     - You should see the .ics file generated in your directory.
 
 7. **Importing .ics Files into Calendars**:
-    - For all 3 Calendars, I would recommend creating a calendar and importing the .ics file events into that calendar. That way, you would be able to change the colours of the events by group and control the notification settings (E.g. Google Calendar adds notifications by default, which can be disabled per calendar)
-    - For Google Calendar and Outlook it should be pretty straight forward, as for Apple Calendar, you might want to refer to this reddit page [here](https://www.reddit.com/r/ios/comments/1kwttla/figured_out_an_easy_way_to_import_ics_files_into/)
+    - For all 3 Calendars, I would recommend creating a calendar and importing the .ics file events into that calendar. That way, you would be able to change the colours of the events by group and control the notification settings (E.g. Google Calendar adds notifications by default, which can be disabled per calendar).
+    - For Google Calendar and Outlook it should be pretty straight forward, as for Apple Calendar, you might want to refer to this reddit page [here](https://www.reddit.com/r/ios/comments/1kwttla/figured_out_an_easy_way_to_import_ics_files_into/).
 
 ---
