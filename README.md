@@ -127,11 +127,12 @@ It is not an official SIM tool and is not affiliated with or endorsed by Singapo
     - You should end up at the timetable page.
 
     ![Timetable Exraction 2](assets/timetable_extraction_2.png)
-    - Right click on the timetable table and click on `View frame source`.
-    - A page should pop up. Copy everything on that page using `CTRL + A` and `CTRL + C`.
+    - Right click on the page and select `View frame source`.
+    - A page should pop up. Right click on the page and select `Save as`.
 
     ![Timetable Exraction 3](assets/timetable_extraction_3.png)
-    - Paste the contents into your notepad and save it as a .html file (Remember to change the file type to `All files`). You can put any name you want, for simplicity we're using `timetable_data.html`.
+    - Under `Save as type` select `Webpage, HTML Only`. You can put any name you want, for simplicity we're using `timetable_data.html`.
+    - Make sure the HTML file is in the same folder as the python files.
 
 6. **Running the script**:
     - Before running, open up **generate_ics.py** and change `FILE_NAME_HTML` to the name u used to store the HTML data in the previous step (Remember it has to end with .html).
