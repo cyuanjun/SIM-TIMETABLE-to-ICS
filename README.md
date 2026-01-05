@@ -126,7 +126,6 @@ It is not an official SIM tool and is not affiliated with or endorsed by Singapo
     - Click on the dropdown menu under Academics with `other academic...`, select `Personalised Timetable`, and click the arrow icon beside.
     - You should end up at the timetable page.
 
-    ![Timetable Exraction 2](assets/timetable_extraction_2.png)
     - Right click on the page and select `View frame source`.
     - A page should pop up. Right click on the page and select `Save as`.
 
